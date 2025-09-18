@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+bower_components/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Build outputs
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+*.log
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+
+# Configuration files with sensitive data
+config.local.*
+.env.local
+.env.production
+secrets.yml
+secrets.yaml
+*.key
+*.pem
+
+# Test coverage and reports
+coverage/
+*.coverage
+htmlcov/
+.nyc_output/
+.coverage.*
+
+# Documentation build
+docs/_build/
+docs/site/
